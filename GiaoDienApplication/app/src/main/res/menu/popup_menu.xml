@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tiengAnh"
+        android:title="Tiếng Anh"
+        android:icon="@drawable/ic_language"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/tiengViet"
+        android:title="Tiếng Việt"
+        android:icon="@drawable/ic_language"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/tiengTrung"
+        android:title="Tiếng Trung"
+        android:icon="@drawable/ic_language"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/tiengPhap"
+        android:title="Tiếng Pháp"
+        android:icon="@drawable/ic_language"
+        app:showAsAction="never"
+        />
+
+    <item android:title="Khác" app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/tiengA"
+                android:title="Tiếng A"
+                android:icon="@drawable/ic_language"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/tiengB"
+                android:title="Tiếng B"
+                android:icon="@drawable/ic_language"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
+</menu>

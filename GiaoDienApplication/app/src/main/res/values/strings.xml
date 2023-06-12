@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GiaoDienApplication</string>
+    <string name="acount_name">Nguyễn Chí Thuận</string>
+    <string name="acount_mail">thuan@gmail.com</string>
+    <string name="opendrawer">open drawer</string>
+    <string name="closedrawer">close drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

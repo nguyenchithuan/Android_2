@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".bai1.Bai1Fragment">
+
+    <TextView
+        android:id="@+id/tvName"
+        style="@style/styleTextView"
+        />
+
+    <ToggleButton
+        android:id="@+id/btnToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/ischecktogglebutton"
+        android:textOff=""
+        android:textOn=""
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ảnh 9 patch\n ảnh 9 patch\n ảnh 9 patch\n ảnh 9 patch\n ảnh 9 patch\n ảnh 9 patch\n ảnh 9 patch\n ảnh 9 patch\n ảnh 9 patch\n ảnh 9 patch\n"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/messeger1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ảnh bình thương"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/messeger"
+        />
+
+
+</LinearLayout>

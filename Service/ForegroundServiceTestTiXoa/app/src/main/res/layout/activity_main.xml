@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        >
+
+        <Button
+        android:id="@+id/btn_start_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start service"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_gradient_corner_10"
+        android:textColor="@color/white"
+        />
+
+        <Button
+            android:id="@+id/btn_stop_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop service"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_gradient_corner_10"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_bottom"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FF9800"
+        >
+
+        <ImageView
+            android:id="@+id/img_song"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/img_song"
+            android:layout_toLeftOf="@+id/img_play_or_pause"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_title_song"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/TextAppearance.Compat.Notification.Title"
+                />
+
+            <TextView
+                android:id="@+id/tv_message_song"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/TextAppearance.Compat.Notification.Info"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_play_or_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_pause_circle_outline_24"
+            android:layout_toLeftOf="@+id/img_clear"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="10dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/img_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_clear_24"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

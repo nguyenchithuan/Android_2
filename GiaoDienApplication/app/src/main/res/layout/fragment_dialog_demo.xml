@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Bai6.DialogDemoFragment">
+
+    <Button
+        android:id="@+id/btnSimDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Dialog"
+        />
+
+
+    <Button
+        android:id="@+id/btnCustomlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog"
+        />
+
+    <Button
+        android:id="@+id/btnItemDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Dialog"
+        />
+
+    <Button
+        android:id="@+id/btnChoiceDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choice Dialog"
+        />
+
+    <Button
+        android:id="@+id/btnMultiChoiceDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multi Choice Dialog"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ForegroundServiceMusic</string>
+    <string name="channel_name">Foreground Service Music</string>
+</resources>

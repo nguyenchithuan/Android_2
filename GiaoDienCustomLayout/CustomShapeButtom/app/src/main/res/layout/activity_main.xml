@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007877"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/anh"
+            />
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buttom"
+            android:textColor="@color/white"
+            android:layout_marginTop="12dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buttom 1"
+            android:layout_marginTop="12dp"
+            android:background="#FF9800"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buttom 2"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_shape_btn_2"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buttom 3"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_shape_btn_3"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="+"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/white"
+            android:background="@drawable/circle_btn"
+            />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Buttom 4"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/white"
+                android:background="@drawable/custom_shape_btn_4"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Buttom 5"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/white"
+                android:background="@drawable/custom_shape_btn_5"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buttom 3"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_shape_btn_6"
+            />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
